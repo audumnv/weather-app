@@ -1,0 +1,73 @@
+.container {
+	border: 2px solid black;
+	outline: 4px solid pink;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-width: fit-content;
+}
+
+h1 {
+	color: black;
+	font-family: "Homemade Apple", cursive;
+	padding: 30px;
+	position: relative;
+}
+
+form input {
+	border: 2px solid pink;
+	position: fixed;
+	top: 0;
+	float: right;
+	right: 0;
+	display: inline-flex;
+	margin-right: 230px;
+	margin-top: 30px;
+}
+
+.information {
+	position: relative;
+	margin: 5px;
+	padding: 30px;
+}
+
+.description {
+	margin-top: -30px;
+}
+
+.upcoming {
+	padding: 30px;
+	font-family: "Homemade Apple", cursive;
+}
+
+ul {
+	padding: 3px;
+	position: relative;
+	margin: 0 auto;
+	list-style: none;
+}
+
+.more-weather {
+	box-sizing: border-box;
+	width: fit-content;
+	border: 3px solid pink;
+	background-color: hsla(350, 100%, 88%, 0.699);
+	margin: auto 50px 30px 50px;
+}
+
+.day li {
+	text-align: center;
+	background-color: hsla(350, 100%, 88%, 0.699);
+	background: none;
+}
+
+.temperature li {
+	text-align: center;
+	background-color: hsla(350, 100%, 88%, 0.699);
+	background: none;
+}
+
+.emoji li {
+	text-align: center;
+	background-color: hsla(350, 100%, 88%, 0.699);
+	background: none;
+}

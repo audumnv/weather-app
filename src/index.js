@@ -49,8 +49,7 @@ defaultCity("Lansing");
 // Show Weather
 function showWeather(response) {
   document.querySelector("#city").innerHTML = response.data.name;
-  document.querySelector("#temp-number").innerHTML = Math.round(
-    response.data.main.temp
+  document.querySelector("#temp-number").innerHTML = Math.round(response.data.main.temp
   );
 }
 

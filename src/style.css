@@ -71,3 +71,6 @@ ul {
 	background-color: hsla(350, 100%, 88%, 0.699);
 	background: none;
 }
+p {
+	text-align: center;
+}

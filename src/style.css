@@ -1,76 +1,120 @@
-.container {
-	border: 2px solid black;
-	outline: 4px solid pink;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	border-width: fit-content;
+body {
+	font-family: arial, sans-serif;
 }
 
 h1 {
 	color: black;
-	font-family: "Homemade Apple", cursive;
-	padding: 30px;
-	position: relative;
-}
-
-form input {
-	border: 2px solid pink;
-	position: fixed;
-	top: 0;
-	float: right;
-	right: 0;
-	display: inline-flex;
-	margin-right: 230px;
-	margin-top: 30px;
-}
-
-.information {
-	position: relative;
-	margin: 5px;
-	padding: 30px;
-}
-
-.description {
-	margin-top: -30px;
-}
-
-.upcoming {
-	padding: 30px;
+	font-size: 24px;
+	font-weight: 100;
+	line-height: 28px;
+	margin-bottom: 0;
 	font-family: "Homemade Apple", cursive;
 }
 
 ul {
-	padding: 3px;
-	position: relative;
-	margin: 0 auto;
+	margin: 0;
+	padding: 0;
+}
+
+li {
 	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	color: rgb(135, 135, 135);
+	font-size: 16px;
+	font-weight: 100;
+	line-height: 19px;
+}
+
+li:first-letter {
+	text-transform: capitalize;
+}
+.container {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.weather-app-wrapper {
+	max-width: 600px;
+	margin: 30px auto;
+}
+
+.weather-app {
+	padding: 20px;
+	border: 2px solid rgba(0, 0, 0, 0.753);
+	border-radius: 5px;
+	box-shadow: 0 0 3px 4px pink;
+}
+.overview {
+	margin-bottom: 20px;
+}
+
+.weather-temperature img {
+	margin-right: 5px;
+	height: 64px;
+	width: 64px;
+}
+
+.weather-temperature strong {
+	color: rgb(33, 33, 33);
+	font-size: 64px;
+	line-height: 1;
+	font-weight: 400;
+}
+
+.weather-temperature .units {
+	position: relative;
+	font-size: 16px;
+	top: -34px;
+}
+
+.weather-temperature .active {
+	color: rgb(33, 33, 33);
+	cursor: default;
+}
+
+.weather-temperature .active:hover {
+	text-decoration: none;
 }
 
 .more-weather {
-	box-sizing: border-box;
-	width: fit-content;
-	border: 3px solid pink;
-	background-color: hsla(350, 100%, 88%, 0.699);
-	margin: auto 50px 30px 50px;
+	margin-top: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: #000;
+	border: 2px solid pink;
+	background-color: hsla(350, 100%, 88%, 0.486);
+}
+.more-weather ul > li {
+	display: inline-block;
+}
+.upcoming {
+	padding-top: 30px;
+	margin-top: 30px;
+	font-family: "Homemade Apple", cursive;
+}
+.btn-primary {
+	color: white;
+	background-color: pink;
+	border-color: pink;
+}
+.btn-primary:hover {
+	color: pink;
+	background-color: white;
+	border-color: pink;
+}
+small a:hover,
+a:visited {
+	color: pink;
 }
 
-.day li {
-	text-align: center;
-	background-color: hsla(350, 100%, 88%, 0.699);
-	background: none;
+.date-li {
+	margin-top: 10px;
 }
 
-.temperature li {
-	text-align: center;
-	background-color: hsla(350, 100%, 88%, 0.699);
-	background: none;
-}
-
-.emoji li {
-	text-align: center;
-	background-color: hsla(350, 100%, 88%, 0.699);
-	background: none;
-}
-p {
-	text-align: center;
+.form-control:focus {
+	border-color: pink;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+		0 0 3px rgba(255, 0, 0, 0.384);
 }

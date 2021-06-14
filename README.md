@@ -13,7 +13,7 @@ The following images show the coding quiz apperance.
 
 ## Deployment
 
-The quiz can be found at:
+The weather app can be found at:
 https://sad-brahmagupta-83fa13.netlify.app/
 
 ## Technologies Used
